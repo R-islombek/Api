@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(201, 201, 236);
+}
+.container{
+    padding: 0;
+    margin: 0 auto;
+    width: 1000px;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header__tittle{
+    font-size: 35px;
+    color: rgb(4, 41, 4);
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 0px 3px 3px;
+}
+h3{
+    color: cadetblue;
+}
+button{
+   border: none;
+   background: none;
+   padding-left: 10px;
+   transition: 0.3s;
+   display: inline-block;
+   font-size: 16px;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.hero__list{
+    list-style: none;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+.hero__tittle{
+    font-size: 30px;
+    font-weight: 500;
+    color:green;
+    padding-top: 15px;
+    margin-top: 10px;
+    background-color: honeydew;
+    padding: 15px 25px;
+}
+.hero__name{
+    font-size: 30px;
+    font-weight: 700;
+    color: orange;
+    padding-top: 15px;
+    margin-top: 10px;
+    background-color: seashell;
+    padding: 15px 25px;
+}
+.form__container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding-top: 50px;
+    text-align: center;
+}
+label{
+    font-size: 16px;
+}
+#input{
+    padding: 5px 15px;
+    background-color: seashell;
+}
+#btn{
+    font-size: 16px;
+    background-color: slategray;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+#shahar{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 72, 0);
+}
+#harorat{
+    font-size: 20px;
+    color: blue;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Namoz_vaqtlari</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container header__container">
+            <div class="weather">
+                <h3 id="weather__tittle">OB-HAVO</h3>
+            </div>
+            <h1 class="header__tittle" id="header__tittle">NAMOZ VAQTLARI</h1>
+            <div class="language">
+                <button onclick="changeLanguage('uz')">
+                    Uz</button>
+                <button onclick="changeLanguage('ru')">
+                    Ru
+                </button>
+                <button onclick="changeLanguage('en')">
+                   En
+                </button>
+            </div>
+        </div>
+    </div>
+
+   <div class="form">
+       <div class="container form__container">
+        <form id="namozform">
+            <label id="label">Shahar kiriting</label>
+            <input type="text" id="input">
+            <button type="submit" id="btn">Btn</button>
+        </form>
+    
+       </div>
+
+   </div>
+
+    <div class="hero">
+        <div class="container hero__container">
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <h2 id="bomdod" class="hero__tittle">BOMDOD</h2>
+                    <h2 id="peshin" class="hero__tittle">PESHIN</h2>
+                    <h2 id="asr" class="hero__tittle">ASR</h2>
+                    <h2 id="shom" class="hero__tittle">SHOM</h2>
+                    <h2 id="xufton" class="hero__tittle">XUFTON</h2>
+                </li>
+                <li class="hero__item">
+                    <h2 class="hero__name" id="time">VAQTI</h2>
+                    <h2 class="hero__name" id="time">VAQTI</h2>
+                    <h2 class="hero__name" id="time">VAQTI</h2>
+                    <h2 class="hero__name" id="time">VAQTI</h2>
+                    <h2 class="hero__name" id="time">VAQTI</h2>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/lang.js"></script>
+    
+</body>
+</html>
